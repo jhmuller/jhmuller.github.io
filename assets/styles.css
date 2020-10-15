@@ -1,0 +1,43 @@
+.body-font {
+        font-size: 62.5%;
+}
+
+a {
+  font-weight:bold;
+  background-color: 'black';
+}
+.head1 {
+    font-size: 3em!important;
+}
+.head2 {
+    font-size: 2.4em!important;
+}
+.head3 {
+    font-size: 1.9em!important;
+}
+.head4 {
+    font-size: 1.5em!important;
+}
+.head5 {
+    font-size: 1.25em!important;
+}
+
+.blue-back {
+  background-color: rgba(150,150,250, 0.9);
+  length: 100% ;
+  width: 100%;
+}
+.p-center {
+ text-align:center
+}
+
+.thick-margins {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.white-text {
+  color: rgb(255,255,255);
+}
