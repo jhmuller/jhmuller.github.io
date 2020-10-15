@@ -10,7 +10,7 @@
 
 <body class="blue-back bondy-font">
   <div class="thick-margins">
-<p class="p-center head1" >  Predicting the US jobs report number  </p>
+<p class="p-center head1" > Forecasting US jobs </p>
 
 <p class="head2 Part1" id="h2">  Part 1: Introduction and Overview </p>
 <p class="head3"> What </p>
