@@ -1,4 +1,5 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+I am a computer scientist, a data scientist and a finance quant.
 
+I like to solve practical problems and create useful applications. I love doing analytics, machine learning, algorithms and data science, so I am thrilled that these disciplines have all become very popular and that just about every industry is using their methods to solve problems.
