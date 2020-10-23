@@ -4,6 +4,9 @@
 
 @import "{{ site.theme }}";
 
+.body {
+        background-color: RGB(0, 0, 220) ;
+}
 .post img {
         display: block;
         border:1px solid #021a40;
