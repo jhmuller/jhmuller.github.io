@@ -9,6 +9,6 @@
 
 
 <body class="blue-back bondy-font">
- Forecasting US jobs </p>
- <a target="_blank" href="https://jhmuller.github.io/job-Forecasting"> Forecasting US jobs </a>
+
+ <a target="_blank" href="https://jhmuller.github.io/job-forecasting"> Forecasting US jobs </a>
 </body>
