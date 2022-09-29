@@ -28,9 +28,15 @@ To see the code, open the notebook ***flowers.ipynb***
 • Time Series Exploratory data analysys on energy price data from the Texas energy grid Ercot.  
 I had done time series EDA and some modeling with R, but this gave me a chance
 to try doing the same with Python tools.  
-To see the code, open the notebook ***timeseries.ipynb*** 
+To see the code, open the notebook ***timeseries.ipynb***
  from the repo https://github.com/jhmuller/timeseries
 
+* Text Classification.
+This is another Kaggle data set although originally from Reddit.
+It is posts labeled as depression related or not.
+I modeled my solution after some code from a Coursera class that uses tensorflow.
+To see the code, open the notebook ***text_classify.ipynb***
+  from the repo  https://github.com/jhmuller/text_classify
 ### Contact
 If you have questions about any of the projects or just want to contact me  
 reach out to jmuller.ics88@gtalumni.org
