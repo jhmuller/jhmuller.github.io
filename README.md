@@ -37,7 +37,8 @@ To see the code, open the notebook ***timeseries.ipynb***
 ### Text Classification.
 This is another Kaggle data set although originally from Reddit.
 It is posts labeled as depression related or not.
-I modeled my solution after some code from a Coursera class that uses tensorflow.
+I modeled my solution after some code from a Coursera class that uses tensorflow.  
+
 To see the code, open the notebook ***text_classify.ipynb***
   from the repo  https://github.com/jhmuller/text_classify
 
