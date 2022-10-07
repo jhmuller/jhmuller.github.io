@@ -31,7 +31,7 @@ To see the code, open the notebook ***flowers.ipynb***
 This is on energy price data from the Texas energy grid ERCOT.  
 I had done time series EDA and some modeling with R,
 but this gave me a chance to try doing the same with Python tools.  
-To see the code, open the notebook ***timeseries.ipynb***
+To see the code, open the notebook ***timeseries.ipynb***  
  from the repo https://github.com/jhmuller/timeseries
 
 ### Text Classification.
