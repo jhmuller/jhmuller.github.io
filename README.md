@@ -54,7 +54,7 @@ In this project I use a movie rating dataset and derive embedddings
    the Two Tower Model and now TorchRec.  However, this fairly simple Method
    seemed like a good place to start.
 
- To see the code, open the notebook ***recs.ipynb***
+ To see the code, open the notebook ***recs.ipynb***  
   from the repo https://github.com/jhmuller/recs
 
 ## Contact Me
