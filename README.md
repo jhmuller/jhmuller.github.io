@@ -57,6 +57,27 @@ In this project I use a movie rating dataset and derive embedddings
  To see the code, open the notebook ***recs.ipynb***  
   from the repo https://github.com/jhmuller/recs
 
+### Text generation.
+Chat bots and translation are a few examples of applications  
+of generating new text from some seed or starter text.
+You can even play around with using it on your own starter  
+text at the Hugging Face website.
+
+I wanted to get started with some of the Hugging face APIs AND I was  
+curious about text generation so I devised an experiment.  
+In particular, I was curious what would get generated if the   
+seed were for example
+* famous book beginnings,
+* movie quotes
+* jokes, and other oddball starter strings.
+
+So I created a Jupyter notebook to try it out.
+
+To see the code, open the notebook ***text_gen.ipynb***  
+ from the repo https://github.com/jhmuller/text_gen
+
+
+
 ## Contact Me
 If you have questions about any of the projects or just want to contact me  
 reach out to jmuller.ics88@gtalumni.org
