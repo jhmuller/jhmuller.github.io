@@ -28,8 +28,8 @@ To see the code, open the notebook ***flowers.ipynb***
  from the repo https://github.com/jhmuller/flowers/
 
 3. Using a PreTrained model for image classification  
-My NN for the image classification in #2 was very simple,  
-only 2 convolution and pooling layers.  
+My NN for the image classification in the Simple Image Classification above  
+was very simple,  only 2 convolution and pooling layers.  
 Modern nets for image applications can have hundreds of layers,
 so I wanted to retry the classification using the tensorflow  
 model MobileNet as a base model and retrain only the final
@@ -49,7 +49,6 @@ To see the code, open the notebook ***timeseries.ipynb***
 This is another Kaggle data set although originally from Reddit.
 It is posts labeled as depression related or not.
 I modeled my solution after some code from a Coursera class that uses tensorflow.  
-
 To see the code, open the notebook ***text_classify.ipynb***  
   from the repo  https://github.com/jhmuller/text_classify
 
@@ -57,14 +56,11 @@ To see the code, open the notebook ***text_classify.ipynb***
 In this project I use a movie rating dataset and derive embedddings
  for users and movies that can be used to derive a predicted
  rating of the movie by the user.  To get the prediction we take
- the dot product of the movie and user embeddings.
-
- The embeddings are "learnged" by training a neural network using Pytorch.
-
+ the dot product of the movie and user embeddings.  
+ The embeddings are "learnged" by training a neural network using Pytorch.  
  Note that there are many more sophisticated ways to do recommentations including
    the Two Tower Model and now TorchRec.  However, this fairly simple Method
-   seemed like a good place to start.
-
+   seemed like a good place to start.  
  To see the code, open the notebook ***recs.ipynb***  
   from the repo https://github.com/jhmuller/recs
 
@@ -72,18 +68,15 @@ In this project I use a movie rating dataset and derive embedddings
 Chat bots and translation are a few examples of applications  
 of generating new text from some seed or starter text.
 You can even play around with using it on your own starter  
-text at the Hugging Face website.
-
+text at the Hugging Face website.  
 I wanted to get started with some of the Hugging face APIs AND I was  
 curious about text generation so I devised an experiment.  
 In particular, I was curious what would get generated if the   
 seed were for example
 * famous book beginnings,
 * movie quotes
-* jokes, and other oddball starter strings.
-
-So I created a Jupyter notebook to try it out.
-
+* jokes, and other oddball starter strings.  
+So I created a Jupyter notebook to try it out.  
 To see the code, open the notebook ***text_gen.ipynb***  
  from the repo https://github.com/jhmuller/text_gen
 
