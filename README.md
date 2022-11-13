@@ -80,6 +80,17 @@ So I created a Jupyter notebook to try it out.
 To see the code, open the notebook ***text_gen.ipynb***  
  from the repo https://github.com/jhmuller/text_gen
 
+
+8. AWS Sagemaker notebooks  
+I wanted to try using a notebook in the AWS Sagemaker environment
+and also try out some Sagemaker functionality.  
+I found an example on the AWS site so I first tried to reproduce it.  
+That did not quit work so I pivoted and finished the modeling part  
+of the project with Sklearn.
+I will continue to experiment with AWS sagemaker's notebook functionality  
+and perhaps soon find it as easy to use as Colab.
+To see the code, open the notebook ***churn.ipynb***  
+ from the repo https://github.com/jhmuller/sage_churn
 ======================================================
 
 ## Contact Me
