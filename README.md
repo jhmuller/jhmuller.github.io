@@ -52,7 +52,7 @@ I modeled my solution after some code from a Coursera class that uses tensorflow
 To see the code, open the notebook ***text_classify.ipynb***  
   from the repo  https://github.com/jhmuller/text_classify
 
-6. Embeddings for recommendations.
+6. Embeddings for recommendations.  
 In this project I use a movie rating dataset and derive embedddings
  for users and movies that can be used to derive a predicted
  rating of the movie by the user.  To get the prediction we take
@@ -64,7 +64,7 @@ In this project I use a movie rating dataset and derive embedddings
  To see the code, open the notebook ***recs.ipynb***  
   from the repo https://github.com/jhmuller/recs
 
-7. Text generation.
+7. Text generation.  
 Chat bots and translation are a few examples of applications  
 of generating new text from some seed or starter text.
 You can even play around with using it on your own starter  
