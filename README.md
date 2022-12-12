@@ -99,7 +99,7 @@ I decided to try to build a model to do the same thing.
 I found an article about doing this which I used as a template
 but I changed some things from the article, especially about the data.
 The model is built using Keras/tensorflow.
-To see the code, open the notebook ***nextWord.ipynb***
+To see the code, open the notebook ***nextWord.ipynb***  
   from the repo https://github.com/jhmuller/nextWord
 ======================================================
 
