@@ -93,7 +93,7 @@ To see the code, open the notebook ***churn.ipynb***
  from the repo https://github.com/jhmuller/sage_churn
 
 
-9. Predicting the next word.
+9. Predicting the next word.  
 Watching how well the text app on my phone can guess the next word,
 I decided to try to build a model to do the same thing.
 I found an article about doing this which I used as a template
