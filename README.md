@@ -1,11 +1,11 @@
 # Welcome to John Muller's Github.io page
 
-For now I am using this to point to a few  of my github repos that have some ML/Data Science projects
+I am using this site to list pointers to a few  of my github repos
+that have some ML/Data Science projects
 that hopefully show a variety of skills.
 
 I hope to keep adding to these with things like: more deep learning, NLP, and much more.
 
-For now I will list 3 recent projects.
 
 ## Recent Data Science projects
 
