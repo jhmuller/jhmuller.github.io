@@ -10,7 +10,7 @@ For now I will list 3 recent projects.
 ## Recent Data Science projects
 
 
-1. Comparison of Classification Methods.
+1. Comparison of Classification Methods.  
 The data is on stroke patients and from Kaggle and has attributes
   and an outcome variable of stroke or not.
 In the project I am interested in how 3 models compare in accuracy:
@@ -38,7 +38,7 @@ To see the code, open the notebook ***pretrain.ipynb***
  from the repo https://github.com/jhmuller/pretrain/
 
 
-4. Time Series Exploratory data analysys.
+4. Time Series Exploratory data analysys.  
 This is on energy price data from the Texas energy grid ERCOT.  
 I had done time series EDA and some modeling with R,
 but this gave me a chance to try doing the same with Python tools.  
