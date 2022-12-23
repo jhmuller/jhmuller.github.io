@@ -40,7 +40,7 @@ To see the code, open the notebook ***pretrain.ipynb***
 
 
 4. Time Series Exploratory data analysys.  
-This is on energy price data from the Texas energy grid ERCOT.  
+This is on energy price data from the Texas energy grid ERCOT.
 I had done time series EDA and some modeling with R,
 but this gave me a chance to try doing the same with Python tools.  
 To see the code, open the notebook ***timeseries.ipynb***  
@@ -57,8 +57,8 @@ To see the code, open the notebook ***text_classify.ipynb***
 In this project I use a movie rating dataset and derive embedddings
  for users and movies that can be used to derive a predicted
  rating of the movie by the user.  To get the prediction we take
- the dot product of the movie and user embeddings.  
- The embeddings are "learned" by training a neural network using Pytorch.  
+ the dot product of the movie and user embeddings.
+ The embeddings are "learned" by training a neural network using Pytorch.
  Note that there are many more sophisticated ways to do recommendations including
    the Two Tower Model and now TorchRec.  However, this fairly simple Method
    seemed like a good place to start.  
@@ -66,12 +66,12 @@ In this project I use a movie rating dataset and derive embedddings
   from the repo https://github.com/jhmuller/recs
 
 7. Text generation.  
-Chat bots and translation are a few examples of applications  
+Chat bots and translation are a few examples of applications
 of generating new text from some seed or starter text.
-You can even play around with using it on your own starter  
-text at the Hugging Face website.  
-I wanted to get started with some of the Hugging face APIs AND I was  
-curious about text generation so I devised an experiment.  
+You can even play around with using it on your own starter
+text at the Hugging Face website.
+I wanted to get started with some of the Hugging face APIs AND I was
+curious about text generation so I devised an experiment.
 In particular, I was curious what would get generated if the   
 seed were for example
 * famous book beginnings,
@@ -84,12 +84,12 @@ To see the code, open the notebook ***text_gen.ipynb***
 
 8. Predicting Churn
 I wanted to try using a notebook in the AWS Sagemaker environment
-and also try out some Sagemaker functionality.  
-I found an example on the AWS site so I first tried to reproduce it.  
-That did not quit work so I pivoted and finished the modeling part  
+and also try out some Sagemaker functionality.
+I found an example on the AWS site so I first tried to reproduce it.
+That did not quit work so I pivoted and finished the modeling part
 of the project with Sklearn.
-I will continue to experiment with AWS Sagemaker's notebook functionality  
-and perhaps soon find it as easy to use as Colab.
+I will continue to experiment with AWS Sagemaker's notebook functionality
+and perhaps soon find it as easy to use as Colab.  
 To see the code, open the notebook ***churn.ipynb***  
  from the repo https://github.com/jhmuller/sage_churn
 
@@ -99,7 +99,7 @@ Watching how well the text app on my phone can guess the next word,
 I decided to try to build a model to do the same thing.
 I found an article about doing this which I used as a template
 but I changed some things from the article, especially about the data.
-The model is built using Keras/tensorflow.
+The model is built using Keras/tensorflow.  
 To see the code, open the notebook ***nextWord.ipynb***  
   from the repo https://github.com/jhmuller/nextWord
 ======================================================
