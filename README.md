@@ -11,8 +11,8 @@ I hope to keep adding to these with things like: more deep learning, NLP, and mu
 
 
 1. Comparison of Classification Methods.  
-The data is on stroke patients and from Kaggle and has attributes
-  and an outcome variable of stroke or not.
+The data is from Kaggle and on stroke patients.
+ It has attributes and an outcome variable of stroke or not.
 In the project I am interested in how 3 models compare in accuracy:
      logistic regression, Gradient Boosting and Random Forests.  
 The project also gave me a chance to use some hyper parameter tuning in sklearn.  
@@ -21,9 +21,11 @@ from the repo https://github.com/jhmuller/stroke/
 
 2. Simple Image Classification.   
  I use tensorflow and Keras to try to distinguish
-between 2 kids of flowers. While a fairly simple task, it's not my first image classification project,  but one of the first where I tried a lot of tuning.  
+between 2 kids of flowers. While a fairly simple task, it's not my first image
+classification project,  but one of the first where I tried a lot of tuning.  
  I did manual tuning of the hyper parameters such as layers, dropout and learning rate.   
-It's clear I am going to have to start using tools like Keras tune or some equivalent in PyTorch.   
+It's clear I am going to have to start using tools like Keras tune or
+something equivalent in PyTorch.   
 To see the code, open the notebook ***flowers.ipynb***   
  from the repo https://github.com/jhmuller/flowers/
 
@@ -47,7 +49,7 @@ To see the code, open the notebook ***timeseries.ipynb***
 
 5. Text Classification.
 This is another Kaggle data set although originally from Reddit.
-It is posts labeled as depression related or not.
+It is posts labeled as "depression related" or not.
 I modeled my solution after some code from a Coursera class that uses tensorflow.  
 To see the code, open the notebook ***text_classify.ipynb***  
   from the repo  https://github.com/jhmuller/text_classify
@@ -57,8 +59,8 @@ In this project I use a movie rating dataset and derive embedddings
  for users and movies that can be used to derive a predicted
  rating of the movie by the user.  To get the prediction we take
  the dot product of the movie and user embeddings.  
- The embeddings are "learnged" by training a neural network using Pytorch.  
- Note that there are many more sophisticated ways to do recommentations including
+ The embeddings are "learned" by training a neural network using Pytorch.  
+ Note that there are many more sophisticated ways to do recommendations including
    the Two Tower Model and now TorchRec.  However, this fairly simple Method
    seemed like a good place to start.  
  To see the code, open the notebook ***recs.ipynb***  
@@ -81,13 +83,13 @@ To see the code, open the notebook ***text_gen.ipynb***
  from the repo https://github.com/jhmuller/text_gen
 
 
-8. AWS Sagemaker notebooks  
+8. Predicting Churn
 I wanted to try using a notebook in the AWS Sagemaker environment
 and also try out some Sagemaker functionality.  
 I found an example on the AWS site so I first tried to reproduce it.  
 That did not quit work so I pivoted and finished the modeling part  
 of the project with Sklearn.
-I will continue to experiment with AWS sagemaker's notebook functionality  
+I will continue to experiment with AWS Sagemaker's notebook functionality  
 and perhaps soon find it as easy to use as Colab.
 To see the code, open the notebook ***churn.ipynb***  
  from the repo https://github.com/jhmuller/sage_churn
