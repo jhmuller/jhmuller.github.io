@@ -82,7 +82,7 @@ To see the code, open the notebook ***text_gen.ipynb***
  from the repo https://github.com/jhmuller/text_gen
 
 
-8. Predicting Churn
+8. Predicting Churn  
 I wanted to try using a notebook in the AWS Sagemaker environment
 and also try out some Sagemaker functionality.
 I found an example on the AWS site so I first tried to reproduce it.
