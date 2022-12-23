@@ -10,30 +10,29 @@ I hope to keep adding to these with things like: more deep learning, NLP, and mu
 ## Recent Data Science projects
 
 
-1. Comparison of Classification Methods.  
-The data is from Kaggle and on stroke patients.
+1. Comparison of Classification Methods. The data is from Kaggle and on stroke patients.
  It has attributes and an outcome variable of stroke or not.
-In the project I am interested in how 3 models compare in accuracy:
+ In the project I am interested in how 3 models compare in accuracy:
      logistic regression, Gradient Boosting and Random Forests.  
 The project also gave me a chance to use some hyper parameter tuning in sklearn.  
-To see the code, open the notebook ***stroke.ipynb***  
+ To see the code, open the notebook ***stroke.ipynb***  
 from the repo https://github.com/jhmuller/stroke/
 
 2. Simple Image Classification.   
- I use tensorflow and Keras to try to distinguish
-between 2 kids of flowers. While a fairly simple task, it's not my first image
-classification project,  but one of the first where I tried a lot of tuning.  
- I did manual tuning of the hyper parameters such as layers, dropout and learning rate.   
+ I use tensorflow and Keras to try to distinguish between 2 kids of flowers.
+ While a fairly simple task, it's not my first image
+ classification project,  but one of the first where I tried a lot of tuning.
+ I did manual tuning of the hyper parameters such as layers, dropout and learning rate.
 It's clear I am going to have to start using tools like Keras tune or
 something equivalent in PyTorch.   
 To see the code, open the notebook ***flowers.ipynb***   
  from the repo https://github.com/jhmuller/flowers/
 
 3. Using a PreTrained model for image classification  
-My NN for the image classification in the Simple Image Classification above  
-was very simple,  only 2 convolution and pooling layers.  
+My NN for the image classification in the Simple Image Classification above
+was very simple,  only 2 convolution and pooling layers.
 Modern nets for image applications can have hundreds of layers,
-so I wanted to retry the classification using the tensorflow  
+so I wanted to retry the classification using the tensorflow
 model MobileNet as a base model and retrain only the final
 prediction layer.  
 To see the code, open the notebook ***pretrain.ipynb***   
