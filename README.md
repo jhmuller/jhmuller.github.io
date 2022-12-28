@@ -102,6 +102,16 @@ but I changed some things from the article, especially about the data.
 The model is built using Keras/tensorflow.  
 To see the code, open the notebook ***nextWord.ipynb***  
   from the repo https://github.com/jhmuller/nextWord
+
+10. Clustering electricity price time series.
+I found some interesting time series data on electricity cost
+at the state/month level.  Too coarse for energy trading
+but maybe useful to understand macro trends in prices.
+I used Kmeans to cluster the series.  The resulting
+clusters were interesting and I think I could tell a story
+for most of the results.
+To see the code open the notebook ***energy_clusters.ipynb***  
+  from the repo https://github.com/jhmuller/energy_price  
 ======================================================
 
 ## Contact Me
