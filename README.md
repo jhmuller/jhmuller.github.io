@@ -1,16 +1,21 @@
 # Welcome to John Muller's Github.io page
 
 I am using this site to list pointers to a few  of my github repos
-that have some ML/Data Science projects
-that hopefully show a variety of skills.
+that have some ML/Data Science projects that hopefully show a variety of skills.
 
-I hope to keep adding to these with things like: more deep learning, NLP, and much more.
+I use Jupyter notebooks for all of them.  I realize that in production
+you are more likely to use Python scripts.  In fact, my style of development
+is often to use both, migrating mature code
+from a Notebook to functions and classes in a Python script.
+However, the Notebooks offers the wonderful ability to embed
+markdown with the code and I think that is a great asset for what
+I am trying to achieve here.
+
+## Sample of Data Science projects
 
 
-## Recent Data Science projects
-
-
-1. Comparison of Classification Methods. The data is from Kaggle and on stroke patients.
+-  **Comparison of Classification Methods**  
+ The data is from Kaggle and on stroke patients.
  It has attributes and an outcome variable of stroke or not.
  In the project I am interested in how 3 models compare in accuracy:
      logistic regression, Gradient Boosting and Random Forests.  
@@ -18,7 +23,7 @@ The project also gave me a chance to use some hyper parameter tuning in sklearn.
  To see the code, open the notebook ***stroke.ipynb***  
 from the repo https://github.com/jhmuller/stroke/
 
-2. Simple Image Classification.   
+-  **Image Classification**   
  I use tensorflow and Keras to try to distinguish between 2 kids of flowers.
  While a fairly simple task, it's not my first image
  classification project,  but one of the first where I tried a lot of tuning.
@@ -28,7 +33,7 @@ something equivalent in PyTorch.
 To see the code, open the notebook ***flowers.ipynb***   
  from the repo https://github.com/jhmuller/flowers/
 
-3. Using a PreTrained model for image classification  
+-  *Using a PreTrained model for image classification**  
 My NN for the image classification in the Simple Image Classification above
 was very simple,  only 2 convolution and pooling layers.
 Modern nets for image applications can have hundreds of layers,
@@ -39,21 +44,21 @@ To see the code, open the notebook ***pretrain.ipynb***
  from the repo https://github.com/jhmuller/pretrain/
 
 
-4. Time Series Exploratory data analysys.  
+-  **Time Series Exploratory data analysis**  
 This is on energy price data from the Texas energy grid ERCOT.
 I had done time series EDA and some modeling with R,
 but this gave me a chance to try doing the same with Python tools.  
 To see the code, open the notebook ***timeseries.ipynb***  
  from the repo https://github.com/jhmuller/timeseries
 
-5. Text Classification.
+-  **Text Classification**  
 This is another Kaggle data set although originally from Reddit.
 It is posts labeled as "depression related" or not.
 I modeled my solution after some code from a Coursera class that uses tensorflow.  
 To see the code, open the notebook ***text_classify.ipynb***  
   from the repo  https://github.com/jhmuller/text_classify
 
-6. Embeddings for recommendations.  
+-  **Embeddings for recommendations**  
 In this project I use a movie rating dataset and derive embedddings
  for users and movies that can be used to derive a predicted
  rating of the movie by the user.  To get the prediction we take
@@ -65,7 +70,7 @@ In this project I use a movie rating dataset and derive embedddings
  To see the code, open the notebook ***recs.ipynb***  
   from the repo https://github.com/jhmuller/recs
 
-7. Text generation.  
+-  **Text generation**  
 Chat bots and translation are a few examples of applications
 of generating new text from some seed or starter text.
 You can even play around with using it on your own starter
@@ -82,7 +87,7 @@ To see the code, open the notebook ***text_gen.ipynb***
  from the repo https://github.com/jhmuller/text_gen
 
 
-8. Predicting Churn  
+-  **Predicting Churn**  
 I wanted to try using a notebook in the AWS Sagemaker environment
 and also try out some Sagemaker functionality.
 I found an example on the AWS site so I first tried to reproduce it.
@@ -94,7 +99,7 @@ To see the code, open the notebook ***churn.ipynb***
  from the repo https://github.com/jhmuller/sage_churn
 
 
-9. Predicting the next word.  
+- **Predicting the next word**  
 Watching how well the text app on my phone can guess the next word,
 I decided to try to build a model to do the same thing.
 I found an article about doing this which I used as a template
@@ -103,7 +108,7 @@ The model is built using Keras/tensorflow.
 To see the code, open the notebook ***nextWord.ipynb***  
   from the repo https://github.com/jhmuller/nextWord
 
-10. Clustering electricity price time series.
+-  **Clustering time series.**  
 I found some interesting time series data on electricity cost
 at the state/month level.  Too coarse for energy trading
 but maybe useful to understand macro trends in prices.
