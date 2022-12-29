@@ -3,7 +3,7 @@
 I am using this site to list pointers to a few  of my github repos
 that have some ML/Data Science projects that hopefully show a variety of skills.
 
-I use Jupyter notebooks for all of them.  I realize that in production
+I use Jupyter notebooks for all of the projects.  I realize that in production
 you are more likely to use Python scripts.  In fact, my style of development
 is often to use both, migrating mature code
 from a Notebook to functions and classes in a Python script.
@@ -33,7 +33,7 @@ something equivalent in PyTorch.
 To see the code, open the notebook ***flowers.ipynb***   
  from the repo https://github.com/jhmuller/flowers/
 
--  *Using a PreTrained model for image classification**  
+-  **Using a PreTrained model for image classification**  
 My NN for the image classification in the Simple Image Classification above
 was very simple,  only 2 convolution and pooling layers.
 Modern nets for image applications can have hundreds of layers,
@@ -43,13 +43,6 @@ prediction layer.
 To see the code, open the notebook ***pretrain.ipynb***   
  from the repo https://github.com/jhmuller/pretrain/
 
-
--  **Time Series Exploratory data analysis**  
-This is on energy price data from the Texas energy grid ERCOT.
-I had done time series EDA and some modeling with R,
-but this gave me a chance to try doing the same with Python tools.  
-To see the code, open the notebook ***timeseries.ipynb***  
- from the repo https://github.com/jhmuller/timeseries
 
 -  **Text Classification**  
 This is another Kaggle data set although originally from Reddit.
@@ -78,10 +71,8 @@ text at the Hugging Face website.
 I wanted to get started with some of the Hugging face APIs AND I was
 curious about text generation so I devised an experiment.
 In particular, I was curious what would get generated if the   
-seed were for example
-* famous book beginnings,
-* movie quotes
-* jokes, and other oddball starter strings.  
+seed were for example: famous book beginnings, movie quotes, jokes,
+and other oddball starter strings.  
 So I created a Jupyter notebook to try it out.  
 To see the code, open the notebook ***text_gen.ipynb***  
  from the repo https://github.com/jhmuller/text_gen
