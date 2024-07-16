@@ -20,7 +20,7 @@ I am trying to achieve here.
  In the project I am interested in how 3 models compare in accuracy:
      logistic regression, Gradient Boosting and Random Forests.  
 The project also gave me a chance to use some hyper parameter tuning in sklearn.  
- The code and output can be found here  https://github.com/jhmuller/stroke/blob/main/stroke.ipynb
+ The code and output can be found here  https://github.com/jhmuller/stroke/blob/main/stroke.html
 
 -  **Image Classification**   
  I use tensorflow and Keras to try to distinguish between 2 kids of flowers.
@@ -38,17 +38,17 @@ was very simple,  only 2 convolution and pooling layers.
 Modern nets for image applications can have hundreds of layers,
 so I wanted to retry the classification using the tensorflow
 model MobileNet as a base model and retrain only the final
-prediction layer.  
-To see the code, open the notebook ***pretrain.ipynb***   
- from the repo https://github.com/jhmuller/pretrain/
+prediction layer. 
+The code and output can be found here 
+  https://github.com/jhmuller/pretrain/blob/main/pretrain.ipynb
 
 
 -  **Text Classification**  
 This is another Kaggle data set although originally from Reddit.
 It is posts labeled as "depression related" or not.
 I modeled my solution after some code from a Coursera class that uses tensorflow.  
-To see the code, open the notebook ***text_classify.ipynb***  
-  from the repo  https://github.com/jhmuller/text_classify
+The code and ouptupt can be found here 
+  https://github.com/jhmuller/text_classify/blob/main/text_classify.ipynb
 
 -  **Embeddings for recommendations**  
 In this project I use a movie rating dataset and derive embedddings
@@ -59,8 +59,7 @@ In this project I use a movie rating dataset and derive embedddings
  Note that there are many more sophisticated ways to do recommendations including
    the Two Tower Model and now TorchRec.  However, this fairly simple Method
    seemed like a good place to start.  
- To see the code, open the notebook ***recs.ipynb***  
-  from the repo https://github.com/jhmuller/recs
+The code and output can be found here   https://github.com/jhmuller/recs/blob/main/recs.ipynb
 
 -  **Text generation**  
 Chat bots and translation are a few examples of applications
@@ -73,18 +72,8 @@ In particular, I was curious what would get generated if the
 seed were for example: famous book beginnings, movie quotes, jokes,
 and other oddball starter strings.  
 So I created a Jupyter notebook to try it out.  
-To see the code, open the notebook ***text_gen.ipynb***  
- from the repo https://github.com/jhmuller/text_gen
+The code and output can be found here https://github.com/jhmuller/text_gen/blob/main/text_gen.ipynb
 
-
-- **Predicting the next word**  
-Watching how well the text app on my phone can guess the next word,
-I decided to try to build a model to do the same thing.
-I found an article about doing this which I used as a template
-but I changed some things from the article, especially about the data.
-The model is built using Keras/tensorflow.  
-To see the code, open the notebook ***nextWord.ipynb***  
-  from the repo https://github.com/jhmuller/nextWord
 
 -  **Clustering time series.**  
 I found some interesting time series data on electricity cost
@@ -93,8 +82,7 @@ but maybe useful to understand macro trends in prices.
 I used Kmeans to cluster the series.  The resulting
 clusters were interesting and I think I could tell a story
 for most of the results.
-To see the code open the notebook ***energy_clusters.ipynb***  
-  from the repo https://github.com/jhmuller/energy_price  
+The code and output can be found here https://github.com/jhmuller/energy_price/blob/main/energy_clusters.ipynb  
 ======================================================
 
 ## Contact Me
