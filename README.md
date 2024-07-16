@@ -1,5 +1,7 @@
 # Welcome to John Muller's Github.io page
 
+Click [here]{https://html-preview.github.io/?url=https://github.com/jhmuller/jhmuller.github.io/blob/main///index.html} for a nicer HTML version.
+
 I am using this site to list pointers to a few  of my github repos
 that have some ML/Data Science projects that hopefully show a variety of skills.
 
