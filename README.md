@@ -83,8 +83,7 @@ I used Kmeans to cluster the series.  The resulting
 clusters were interesting and I think I could tell a story
 for most of the results.
 The code and output can be found here
-
-https://html-preview.github.io?url=https://github.com/jhmuller/energy_price/blob/main/energy_clusters.ipynb  
+https://html-preview.github.io?url=https://github.com/jhmuller/energy_price/blob/main/energy_clusters.html   
 ======================================================
 
 ## Contact Me
