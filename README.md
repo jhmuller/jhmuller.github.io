@@ -20,7 +20,7 @@ I am trying to achieve here.
  In the project I am interested in how 3 models compare in accuracy:
      logistic regression, Gradient Boosting and Random Forests.  
 The project also gave me a chance to use some hyper parameter tuning in sklearn.  
- The code and output can be found here  https://github.com/jhmuller/stroke/blob/main/stroke.html
+ The code and output can be found here  https://github.com/jhmuller/stroke/blob/main/stroke.ipynb
 
 -  **Image Classification**   
  I use tensorflow and Keras to try to distinguish between 2 kids of flowers.
@@ -30,7 +30,7 @@ The project also gave me a chance to use some hyper parameter tuning in sklearn.
 It's clear I am going to have to start using tools like Keras tune or
 something equivalent in PyTorch.   
 The code and output can be found here 
-  https://github.com/jhmuller/flowers/blob/main/flowers.ipynb
+  https://github.com/jhmuller/flowers/blob/master/flowers.ipynb
 
 -  **Using a PreTrained model for image classification**  
 My NN for the image classification in the Simple Image Classification above
@@ -48,7 +48,7 @@ This is another Kaggle data set although originally from Reddit.
 It is posts labeled as "depression related" or not.
 I modeled my solution after some code from a Coursera class that uses tensorflow.  
 The code and ouptupt can be found here 
-  https://github.com/jhmuller/text_classify/blob/main/text_classify.ipynb
+  https://github.com/jhmuller/text_classify/blob/master/text_classify.ipynb
 
 -  **Embeddings for recommendations**  
 In this project I use a movie rating dataset and derive embedddings
@@ -59,7 +59,7 @@ In this project I use a movie rating dataset and derive embedddings
  Note that there are many more sophisticated ways to do recommendations including
    the Two Tower Model and now TorchRec.  However, this fairly simple Method
    seemed like a good place to start.  
-The code and output can be found here   https://github.com/jhmuller/recs/blob/main/recs.ipynb
+The code and output can be found here   https://github.com/jhmuller/recs/blob/master/recs.ipynb
 
 -  **Text generation**  
 Chat bots and translation are a few examples of applications
@@ -72,7 +72,7 @@ In particular, I was curious what would get generated if the
 seed were for example: famous book beginnings, movie quotes, jokes,
 and other oddball starter strings.  
 So I created a Jupyter notebook to try it out.  
-The code and output can be found here https://github.com/jhmuller/text_gen/blob/main/text_gen.ipynb
+The code and output can be found here https://github.com/jhmuller/text_gen/blob/master/text_gen.ipynb
 
 
 -  **Clustering time series.**  
