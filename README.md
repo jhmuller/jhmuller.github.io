@@ -82,7 +82,9 @@ but maybe useful to understand macro trends in prices.
 I used Kmeans to cluster the series.  The resulting
 clusters were interesting and I think I could tell a story
 for most of the results.
-The code and output can be found here https://github.com/jhmuller/energy_price/blob/main/energy_clusters.ipynb  
+The code and output can be found here
+
+https://html-preview.github.io?url=https://github.com/jhmuller/energy_price/blob/main/energy_clusters.ipynb  
 ======================================================
 
 ## Contact Me
