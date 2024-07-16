@@ -20,8 +20,7 @@ I am trying to achieve here.
  In the project I am interested in how 3 models compare in accuracy:
      logistic regression, Gradient Boosting and Random Forests.  
 The project also gave me a chance to use some hyper parameter tuning in sklearn.  
- To see the code, open the notebook ***stroke.ipynb***  
-from the repo https://github.com/jhmuller/stroke/
+ The code and output can be found here  https://github.com/jhmuller/stroke/blob/main/stroke.ipynb
 
 -  **Image Classification**   
  I use tensorflow and Keras to try to distinguish between 2 kids of flowers.
@@ -30,8 +29,8 @@ from the repo https://github.com/jhmuller/stroke/
  I did manual tuning of the hyper parameters such as layers, dropout and learning rate.
 It's clear I am going to have to start using tools like Keras tune or
 something equivalent in PyTorch.   
-To see the code, open the notebook ***flowers.ipynb***   
- from the repo https://github.com/jhmuller/flowers/
+The code and output can be found here 
+  https://github.com/jhmuller/flowers/blob/main/flowers.ipynb
 
 -  **Using a PreTrained model for image classification**  
 My NN for the image classification in the Simple Image Classification above
