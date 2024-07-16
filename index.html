@@ -1,31 +1,30 @@
 <h1 id="welcome-to-john-muller-s-github-io-page">Welcome to John Muller&#39;s Github.io page</h1>
 <p>I am using this site to list pointers to a few  of my github repos
-that have some ML/Data Science projects that hopefully show a variety of skills.</p>
+that have some ML/Data Science projects which  hopefully show depth and breadth  of skills.</p>
 <p>I use Jupyter notebooks for all of the projects.  I realize that in production
 you are more likely to use Python scripts.  In fact, my style of development
-is often to use both, migrating mature code
-from a Notebook to functions and classes in a Python script.
-However, the Notebooks offers the wonderful ability to embed
-markdown with the code and I think that is a great asset for what
+is often to use both, migrating mature code from a Notebook to functions and classes in a Python script.
+However, the Notebooks offer the wonderful ability to embed markdown with the code and I think that is a great asset for what
 I am trying to achieve here.</p>
 <h2 id="sample-of-data-science-projects">Sample of Data Science projects</h2>
 <ul>
 <li><p><strong>Comparison of Classification Methods</strong><br>The data is from Kaggle and on stroke patients.
 It has attributes and an outcome variable of stroke or not.
 In the project I am interested in how 3 models compare in accuracy:
-  logistic regression, Gradient Boosting and Random Forests.<br>The project also gave me a chance to use some hyper parameter tuning in sklearn.  The code and output can be found  <a href="https://github.com/jhmuller/stroke/blob/main/stroke.html">here</a></p>
+  logistic regression, Gradient Boosting and Random Forests.
+  <br>The project also gave me a chance to use some hyper parameter tuning in sklearn.
+  The code and output can be found  <a href="https://github.com/jhmuller/stroke/blob/main/stroke.html">here</a></p>
 </li>
-<li><p><strong>Image Classification</strong><br>I use tensorflow and Keras to try to distinguish between 2 kids of flowers.
-While a fairly simple task, it&#39;s not my first image
-classification project,  but one of the first where I tried a lot of tuning.
+
+<li><p><strong>Image Classification</strong><br>I use tensorflow and Keras to try to distinguish between 2 kids of flowers: daisys and sunflowers.
+While a fairly simple task, it's not my first image classification project,  but one of the first where I tried a lot of tuning.
 I did manual tuning of the hyper parameters such as layers, dropout and learning rate.
-It&#39;s clear I am going to have to start using tools like Keras tune or
-something equivalent in PyTorch.<br>The code and output can be found 
+It&#39;s clear I am going to have to start using tools like Keras tune or something equivalent in PyTorch.<br>The code and output can be found 
 <a href="https://github.com/jhmuller/flowers/blob/master/flowers.html"> here</a></p>
 </li>
 
 <li><p><strong>Text Classification</strong><br>This is another Kaggle data set although originally from Reddit.
-It is posts labeled as &quot;depression related&quot; or not.
+It consists of posts labeled as &quot;depression related&quot; or not.
 I modeled my solution after some code from a Coursera class that uses tensorflow.<br>The code and ouptupt can be found here 
 <a href="https://github.com/jhmuller/text_classify/blob/master/text_classify.html">here </a></p>
 </li>
@@ -35,13 +34,12 @@ rating of the movie by the user.  To get the prediction we take
 the dot product of the movie and user embeddings.
 The embeddings are &quot;learned&quot; by training a neural network using Pytorch.
 Note that there are many more sophisticated ways to do recommendations including
-the Two Tower Model and now TorchRec.  However, this fairly simple Method
+the Two Tower Model and now TorchRec.  However, this fairly simple method
 seemed like a good place to start.<br>The code and output can be found  <a href="https://github.com/jhmuller/recs/blob/master/recs.html">here</a></p>
 </li>
 <li><p><strong>Text generation</strong><br>Chat bots and translation are a few examples of applications
 of generating new text from some seed or starter text.
-You can even play around with using it on your own starter
-text at the Hugging Face website.
+You can even play around with using it on your own starter text at the Hugging Face website.
 I wanted to get started with some of the Hugging face APIs AND I was
 curious about text generation so I devised an experiment.
 In particular, I was curious what would get generated if the<br>seed were for example: famous book beginnings, movie quotes, jokes,
