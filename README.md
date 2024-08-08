@@ -5,7 +5,7 @@ Sorry to redirect you, but go [here](https://html-preview.github.io/?url=https:/
 In addition, below are some links to my HuggingFace spaces with some recent work.  
 
 
-[summarize](https://huggingface.co/spaces/jmuller/summariza) is an app to summarize NPR news stories.  
+[summarize](https://huggingface.co/spaces/jmuller/summarize) is an app to summarize NPR news stories.  
 
 
 [complain](https://huggingface.co/spaces/jmuller/complaint_letter) is an app to generate a letter complaing to an airline customer service department about issues on a recent flight.
