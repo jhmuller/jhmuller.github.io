@@ -11,7 +11,7 @@ The first two are on my HuggingFace spaces.
 
 [complain](https://huggingface.co/spaces/jmuller/complaint_letter) is an app to generate a letter complaing to an airline customer service department about issues on a recent flight.
 
-I am also working on extracting text from documents, sort of a RAG application.
+I am also working on extracting answers to questions from context documents; I guess it is a RAG application.
 I start with a PDF, the NVidia 10Q quarterly filing. I break it into pages and
 then a little smaller chunks and use ChromaDB to get embeddings for all the chunks.
 
