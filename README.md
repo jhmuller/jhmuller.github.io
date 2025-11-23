@@ -1,7 +1,7 @@
 # Welcome to John Muller's Github.io page
 
-See  [pdf](https://html-preview.github.io/?url=https://github.com/jhmuller/jhmuller.github.io/blob/main///portfolio.pdf) 
-for a links to older projects.   
+
+<a href="./portfolio.pdf" download> Portfolio pdf <\a>
 
 
 Sorry to redirect you, but go [here](https://html-preview.github.io/?url=https://github.com/jhmuller/jhmuller.github.io/blob/main///index.html) 
